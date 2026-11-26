@@ -13,41 +13,7 @@ Programming Fundamentals project at FAST-NUCES.
 **Section:** BSCY 1-B, FAST-NUCES
 
 ---
-## Instructions to Clone and Execute
 
-### Step 1: Clone the Repository
-
-Open the terminal and execute the following command:
-
-```bash
-git clone https://github.com/alizasyed89/whack_a_mole
-```
-
-Navigate to the project folder:
-
-```bash
-cd whack_a_mole
-```
-
-### Step 2: Compile the Code
-
-Compile the C source code using GCC:
-
-```bash
-gcc main.c -o game.exe -lraylib -lopengl32 -lgdi32 -lwinmm
-```
-
-**Note:** Raylib and GCC (MinGW) must be installed and configured before compiling. If your source file has a different name, replace `main.c` with its actual filename.
-
-### Step 3: Run the Program
-
-For Windows (Command Prompt or VS Code Terminal), execute:
-
-```bash
-game.exe
-```
-
-Alternatively, run the existing executable by double-clicking `game.exe`.
 ## Screenshots
 
 ### Menu screen

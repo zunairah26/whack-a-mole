@@ -219,7 +219,6 @@ int main() {
         EndDrawing();
     }
 
-
     // cleanup and its in reverse ordeer
     UnloadTexture(moleTex);
     UnloadTexture(holeTex);
